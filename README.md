@@ -26,7 +26,7 @@ The project follows a full-stack architecture, with a React-based frontend, a Ja
 | Database access | JDBC |
 | Authentication | Spring Security, JWT |
 | Build tools | Maven, npm |
-| Development tools | Visual Studio Code, MySQL Workbench |
+| Development tools | IntellijIDEA, Visual Studio Code, MySQL Workbench |
 
 ## Architecture
 
