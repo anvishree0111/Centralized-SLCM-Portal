@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: ${SLCM_DB_URL}
+    username: ${SLCM_DB_USERNAME}
+    password: ${SLCM_DB_PASSWORD}
+  jpa:
+    hibernate.ddl-auto: validate
+    open-in-view: false
+    properties.hibernate.jdbc.time_zone: UTC
+  jackson.default-property-inclusion: non_null
+slcm:
+  jwt:
+    secret: ${SLCM_JWT_SECRET}
+    expiration-minutes: 120
+server.error.include-message: never
+  
+spring.servlet:
+  multipart:
+    max-file-size: ${SLCM_MAX_FILE_SIZE:5MB}
+    max-request-size: ${SLCM_MAX_REQUEST_SIZE:6MB}
+app:
+  storage:
+    documents-path: ${SLCM_DOCUMENTS_PATH:./storage/documents}
+    max-document-bytes: ${SLCM_MAX_DOCUMENT_BYTES:5242880}

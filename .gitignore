@@ -1,0 +1,28 @@
+.env
+backend/.env
+backend/target/
+.omnirush/
+*.log
+
+.env.*
+!.env.example
+**/.env
+**/application-local.properties
+**/application-local.yml
+
+**/target/
+
+backend/storage/documents/
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+__pycache__/
+
+# Node dependencies
+**/node_modules/
+
+# Generated build/copy folders
+/backend/bin/
