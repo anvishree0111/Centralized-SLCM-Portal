@@ -1,4 +1,4 @@
--- Read-only verification suite. Run after all three setup scripts.
+
 USE slcm_portal;
 
 -- 1. Inventory: expected table count is 24.

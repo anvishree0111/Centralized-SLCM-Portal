@@ -1,5 +1,4 @@
--- Reference data. Run after 01_schema.sql. Safe to rerun: natural keys use
--- INSERT IGNORE and no existing rows are deleted.
+
 USE slcm_portal;
 START TRANSACTION;
 
